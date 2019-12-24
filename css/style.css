@@ -24,7 +24,7 @@
 }
 
 .e2-section{
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	background-color: white;
 	padding: 60px 0;
@@ -188,14 +188,24 @@ input#saveForm.btTxt.submit{
 
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0, 0, 0, 0.5);
-    height: 100% !important;
+	height: 100% !important;
+	color: rgba(0, 0, 0, 0.9);
+	font-weight: 500;  
+}
+.navbar-light .navbar-nav .nav-link.active {
+	font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: rgba(0, 0, 0, 0.9);
 }
 li.nav-item {
     float: left;
     border-right: 1px solid #bbb;
-  
 }
+li.nav-item:first-child {
+	border-left: 1px solid #bbb;
+}
+
 /*       be-our-agent-subwork       */
 .be-our-agent-subwork{
 	color: #0068a3;
